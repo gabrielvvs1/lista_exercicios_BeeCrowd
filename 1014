@@ -1,0 +1,14 @@
+int main(){
+
+    int x; // distancia em km
+    float y; // consumo de gasolina
+    float z; // km/l
+    
+    scanf("%d %f " , &x, &y);
+
+    z = x / y;
+
+    printf("%.3lf km/l\n" , z = x / y );
+
+return 0;
+}
